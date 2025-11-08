@@ -1,0 +1,6 @@
+# Nmap 7.95 scan initiated Thu Nov  6 08:48:43 2025 as: /usr/lib/nmap/nmap -sn -oG scans/ping_sweep.gnmap 192.168.137.0/24
+Host: 192.168.137.1 ()	Status: Up
+Host: 192.168.137.129 ()	Status: Up
+Host: 192.168.137.254 ()	Status: Up
+Host: 192.168.137.128 ()	Status: Up
+# Nmap done at Thu Nov  6 08:49:11 2025 -- 256 IP addresses (4 hosts up) scanned in 27.93 seconds
