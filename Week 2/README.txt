@@ -1,4 +1,4 @@
-Full VAPT Workflow — Week 2 
+Full VAPT Workflow — Week  2 
 Attacker: Kali Linux (192.168.137.128)
 Targets: Metasploitable2 / DVWA 
 DVWA Web UI: http://127.0.0.1/dvwa/ (default creds: admin / password; set Security -> Low for testing)
