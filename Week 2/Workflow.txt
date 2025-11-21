@@ -1,0 +1,34 @@
+flowchart TD
+
+A[Advanced Exploitation_Mr.Robot VM] 
+--> A1[Nmap Scan]
+A1 --> A2[Vulnerability Identification]
+A2 --> A3[Exploit with Metasploit/Python]
+A3 --> A4[Initial Shell Access]
+
+B[API Security Testing_DVWA] 
+--> B1[Burp Capture]
+B1 --> B2[Endpoint Enumeration]
+B2 --> B3[Modify /v2 → /v1]
+B3 --> B4[Extract Password Hashes]
+
+C[Privilege Escalation_Mr.Robot] 
+--> C1[Local Enumeration]
+C1 --> C2[Identify Weakness]
+C2 --> C3[Privilege Escalation]
+C3 --> C4[Persistence]
+
+D[Network Protocol Attacks] 
+--> D1[Identify MACs]
+D1 --> D2[ARP Spoofing with Ettercap]
+D2 --> D3[Traffic Capture]
+D3 --> D4[MAC Verification]
+
+E[Capstone Project_Metasploitable2] 
+--> E1[PTES Recon]
+E1 --> E2[Nmap Scan]
+E2 --> E3[Exploit VSFTPD]
+E3 --> E4[API Testing with Burp]
+E4 --> E5[Privilege Escalation]
+E5 --> E6[Remediation & Reporting]
+
